@@ -1,0 +1,7 @@
+@import url(./__item/card-list__item.css);
+@import url(./__item-price/card-list__item-price.css);
+@import url(./__item-currency/card-list__item-currency.css);
+
+.card-list {
+    margin: 0 auto;
+}

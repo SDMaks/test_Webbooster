@@ -1,0 +1,7 @@
+.card-section__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    grid-row-gap: 40px;
+    grid-column-gap: 8px;
+    padding-top: 80px;
+}

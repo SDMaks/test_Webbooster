@@ -1,0 +1,10 @@
+.card-list__item-price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #222327;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

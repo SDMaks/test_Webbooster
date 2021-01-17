@@ -1,0 +1,16 @@
+.card__button {
+    background-color: #f20664;
+    width: 60%;
+    box-shadow: 0 5px 15px rgba(141, 7, 40, 0.2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    font-family: Arial, sans-serif;
+    line-height: 12px;
+    color: #f7fafc;
+}
+
+.card__button:hover {
+    background-color: #a51e54;
+    
+}

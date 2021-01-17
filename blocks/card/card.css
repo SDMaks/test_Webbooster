@@ -1,0 +1,14 @@
+@import url(./__image/card__image.css);
+@import url(./__description/card__description.css);
+@import url(./__price/card__price.css);
+@import url(./__button/card__button.css);
+
+.card {
+    font-family: Arial, sans-serif;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

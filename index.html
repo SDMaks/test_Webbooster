@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Задание к вакансии</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+    <section class="card-section">        
+    </section>
+    <section class="card-record"></section>   
+    <div id="request_popup" class="popup">
+        <div class="popup__content">
+          <img class="popup__close-button" id="close_popup" src="./images/close.png" alt="кнопка закрытия">
+          <h3 class="popup__title">Форма отправки</h3>
+          <form class="popup__form" name="goods" novalidate>          
+          <label class="popup__label" for="input-name">Имя</label>
+          <input class="popup__input" type="text" id="input-name" placeholder="Имя" required pattern="[А-ЯЁ]{1}[а-яё]{1,}([\-][А-ЯЁ]{1}[а-яё]+)?"/>
+          <span class="popup__input-error-message"></span>
+          <label class="popup__label" for="input-tel">Телефон</label>
+          <input class="popup__input" type="tel" id="input-tel" placeholder="Телефон" required pattern="(([\+]?)|([\+]\s?))?[7-8](([\-]?)|(\s?))?(((([\(]|\s)\d{3}([\)]|\s)))|(\d{3}))(([\-]?)|(\s?))?\d{3}(([\-]?)|(\s?))?\d{2}(([\-]?)|(\s?))?\d{2}"/>
+          <span class="popup__input-error-message"></span>
+          <label class="popup__label" for="input-email">Email</label>
+          <input class="popup__input" type="email" id="input-email" placeholder="Введите почту" required pattern="(([a-zA-Z])|(\d))+((([a-zA-Z]?)|(\d?))*)(([\-](([a-zA-Z])|(\d)))?[a-zA-Z]*\d*)*(([_](([a-zA-Z])|(\d)))?[a-zA-Z]*\d*)*((([.](([a-zA-Z])|(\d)))?[a-zA-Z]*\d*)|(([\-](([a-zA-Z])|(\d)))?[a-zA-Z]*\d*)|(([_](([a-zA-Z])|(\d)))?[a-zA-Z]*\d*))*[@](((\w+\d*(([-]\w+\d*)|([-]\d+\w*)))|(\d+))|((\w+\d*[.]?\w+\d*)|(\w+\d*)))[.][a-z][a-z][a-z]?">
+          <span class="popup__input-error-message"></span>
+          <label class="popup__label" for="input-goods">Название товара</label>
+          <input class="popup__input" type="text" id="input-goods" placeholder="Название товара" required pattern=".{1,}"/>
+          <span class="popup__input-error-message"></span>
+          <button class="button popup__form-button popup__form-button_grey" id="popup_button">Отправить</button>
+        </form>
+        </div>
+    </div>    
+    <script src="./js/constants/Constants.js" defer></script>
+    <script src="./js/components/List.js" defer></script>
+    <script src="./js/components/RecordList.js" defer></script>
+    <script src="./js/components/RecordListAdd.js" defer></script>
+    <script src="./js/components/Popup.js" defer></script>
+    <script src="./js/components/PopupForm.js" defer></script>
+    <script src="./js/components/Validation.js" defer></script>
+    <script src="./js/components/Card.js" defer></script>
+    <script src="./js/components/CardList.js" defer></script>
+    <script src="index.js" defer></script>
+</body>
+</html>

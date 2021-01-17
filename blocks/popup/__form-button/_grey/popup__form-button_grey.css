@@ -1,0 +1,5 @@
+.popup__form-button.popup__form-button_grey {
+    background-color: #ccd3e1;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(14,26,57,.2);
+}

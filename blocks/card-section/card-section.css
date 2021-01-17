@@ -1,0 +1,7 @@
+@import url(./__grid/card-section__grid.css);
+
+.card-section {
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
